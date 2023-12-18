@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Html Integration",
+  "id": "fernandesrobert-htmlintegration-panel",
+  "info": {
+    "keywords": ["panel"],
+    "description": "Y",
+    "author": {
+      "name": "Fernandesrobert"
+    },
+    "logos": {
+      "small": "img/html-panel-logo-small.png",
+      "large": "img/html-panel-logo-large.png"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=10.0.3",
+    "plugins": []
+  }
+}
