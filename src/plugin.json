@@ -5,13 +5,13 @@
   "id": "fernandesrobert-htmlintegration-panel",
   "info": {
     "keywords": ["panel"],
-    "description": "Y",
+    "description": "Integration html and css text to grafana",
     "author": {
       "name": "Fernandesrobert"
     },
     "logos": {
-      "small": "img/html-panel-logo-small.png",
-      "large": "img/html-panel-logo-large.png"
+      "small": "img/logo-small.png",
+      "large": "img/logo-large.png"
     },
     "links": [],
     "screenshots": [],

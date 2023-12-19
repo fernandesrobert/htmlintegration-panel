@@ -1,7 +1,7 @@
 {
   "name": "html-integration",
   "version": "1.0.0",
-  "description": "Y",
+  "description": "Integration html and css text to grafana",
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
     "dev": "webpack -w -c ./.config/webpack/webpack.config.ts --env development",
@@ -28,6 +28,7 @@
     "@swc/jest": "^0.2.26",
     "@testing-library/jest-dom": "6.1.4",
     "@testing-library/react": "14.0.0",
+    "@types/dompurify": "^3.0.5",
     "@types/jest": "^29.5.0",
     "@types/lodash": "^4.14.194",
     "@types/node": "^20.8.7",
@@ -61,10 +62,12 @@
     "@emotion/css": "11.10.6",
     "@grafana/data": "10.0.3",
     "@grafana/runtime": "10.0.3",
-    "@grafana/ui": "10.0.3",
     "@grafana/schema": "10.0.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@grafana/ui": "10.0.3",
+    "dompurify": "^3.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tslib": "2.5.3"
   },
   "packageManager": "npm@8.5.5"
